@@ -1,6 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 
 .boss-container {
   margin: 0 auto;
@@ -13,10 +16,7 @@ html {
 }
 
 /* rozpoczęcie nava */
-/* rozpoczęcie nava */
-/* rozpoczęcie nava */
-/* rozpoczęcie nava */
-nav {
+.size-color {
   background-color: #4e4e4e;
   width: 100%;
   height: 50px;
@@ -30,7 +30,7 @@ nav {
   align-items: center;
 }
 
-.color-company {
+.my-company-element {
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -55,16 +55,10 @@ nav {
 .disabled-button {
   cursor: not-allowed;
 }
-/* Skończony Nav */
-/* Skończony Nav */
-/* Skończony Nav */
-/* Skończony Nav */
 
 /* zaczęcie headera */
-/* zaczęcie headera */
-/* zaczęcie headera */
-/* zaczęcie headera */
-header {
+
+.size-header {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -82,7 +76,7 @@ header img {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.15);
 }
-.flex-position {
+.position-text {
   height: 100%;
   margin: 0 auto;
   width: 960px;
@@ -93,14 +87,14 @@ header img {
   color: #ffffff;
 }
 
-.text-style {
+.text-quality-product {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   width: 577px;
 }
-.text-style-1 {
+.text-line {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -108,7 +102,7 @@ header img {
   width: 276px;
 }
 
-.button {
+.button-ofert {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -121,33 +115,26 @@ header img {
   align-items: center;
   cursor: pointer;
   transition: all 1s linear;
-}
-.button-ofert {
   text-decoration: none;
   color: white;
 }
-.button:hover {
+.button-ofert:hover {
   border: 3px solid white;
   background-color: white;
   color: black;
 }
-/* skończony header */
-/* skończony header */
-/* skończony header */
-/* skończony header */
-/* skończony header */
 
 /* zaczęcie sekcji z specjalistami */
-/* zaczęcie sekcji z specjalistami */
-/* zaczęcie sekcji z specjalistami */
-/* zaczęcie sekcji z specjalistami */
+
 .specialist-section {
   width: 100%;
   height: 689px;
   background-color: #f1f1f1;
 }
-
-.title {
+.employee-name {
+  font-weight: 700;
+}
+.title-section-specialist {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -163,45 +150,40 @@ header img {
   background-size: cover;
 }
 
-.flex-specialist {
+.container-specialist {
+  display: flex;
+  gap: 0px 60px;
+}
+.container-specialist-under {
   display: flex;
   flex-direction: row-reverse;
   gap: 0px 60px;
   margin-top: 100px;
 }
-.flex-specialist-0 {
-  display: flex;
-  gap: 0px 60px;
-}
-.flex-specialist-direction {
+
+.text-specialist-direction {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 20px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
 li:nth-of-type(even) {
   text-align: right;
 }
-/* Skończona sekcji z specjalistami */
-/* Skończona sekcji z specjalistami */
-/* Skończona sekcji z specjalistami */
-/* Skończona sekcji z specjalistami */
 
 /* rozpoczęcie maina */
-/* rozpoczęcie maina */
-/* rozpoczęcie maina */
-/* rozpoczęcie maina */
-main {
+
+.size-color-service-section {
   background-color: #405d78;
   width: 100%;
   height: 689px;
 }
 
-.style-name {
+.tite-service-section {
   padding-top: 50px;
   padding-bottom: 80px;
   font-style: normal;
@@ -211,7 +193,7 @@ main {
 
   color: #ffffff;
 }
-.flex-box {
+.flex-box-service-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,21 +226,14 @@ main {
   border-radius: 50%;
   background-color: #e07a64;
 }
-/* skończony main */
-/* skończony main */
-/* skończony main */
-/* skończony main */
 
 /* rozpoczęcie footera */
-/* rozpoczęcie footera */
-/* rozpoczęcie footera */
-/* rozpoczęcie footera */
-.footer-style {
+.footer-size-color {
   background-color: #4e4e4e;
   height: 71px;
   width: 100%;
 }
-.footer-text-style {
+.footer-text {
   width: 394px;
   height: 21px;
   color: #ffffff;
@@ -268,17 +243,13 @@ main {
   line-height: 21px;
 }
 
-.flex-footer {
+.container-footer {
   height: 71px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.flex-footer-1 {
+.direction-icons {
   display: flex;
   gap: 18px;
 }
-/* skończony footer  */
-/* skończony footer  */
-/* skończony footer  */
-/* skończony footer  */
